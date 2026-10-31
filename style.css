@@ -35,9 +35,9 @@ h3 { font-family: "Golos Text", sans-serif; font-weight: 600; font-size: 19px; }
 .top { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.97); box-shadow: 0 1px 0 var(--line); }
 .top-in { display: flex; align-items: center; gap: 28px; height: 76px; }
 .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-.logo-mark { width: 42px; height: 42px; border-radius: 12px; background: var(--green); color: #fff; display: grid;
-  place-items: center; font: 700 16px "Unbounded", sans-serif; }
+.logo-mark { width: 44px; height: 44px; flex: none; }
 .logo-txt { font: 600 18px "Unbounded", sans-serif; line-height: 1.1; }
+.logo-txt em { font-style: normal; color: var(--green); }
 .logo-txt small { display: block; font: 400 12px "Golos Text", sans-serif; color: var(--muted); margin-top: 3px; }
 .menu { display: flex; gap: 24px; margin-left: auto; font-size: 15px; }
 .menu a { text-decoration: none; color: var(--muted); }
@@ -159,7 +159,7 @@ details p { padding: 0 22px 20px; color: var(--muted); }
   .wrap { padding: 0 16px; }
   .top-in { height: 64px; gap: 10px; }
   .logo-txt small, .pill { display: none; }
-  .logo-mark { width: 36px; height: 36px; font-size: 14px; }
+  .logo-mark { width: 36px; height: 36px; }
   .logo-txt { font-size: 15px; }
   .top-tel { font-size: 15px; }
   .hero { padding: 32px 0 48px; }
